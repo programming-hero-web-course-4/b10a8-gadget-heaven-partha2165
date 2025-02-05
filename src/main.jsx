@@ -8,6 +8,7 @@ import {
 import Root from './Components/Root/Root';
 import ErrorPage from './Components/ErrorPage/ErrorPage';
 import Home from './Components/Home/Home';
+import Products from './Components/Products/Products';
 
 
 
@@ -19,9 +20,23 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element:<Home />
-      }
+        element: <Home />,
+        children: [
+          {
+            path: '/',
+            element: <Products />,
+            loader: () => fetch('/products.json')
+          },
+          {
+            path: 'products/:category',
+            element: <Products />,
+            loader: () => fetch('/products.json')
+          }
+        ]
+      },
+  
     ]
+    
   },
 ]);
 
