@@ -1,0 +1,123 @@
+[
+    {
+        "id": 1,
+        "title": "iPhone 13 Pro",
+        "img": "https://i.postimg.cc/pdHxpV7h/image.png",
+        "category": "Phones",
+        "price": 999.99,
+        "desc": "A smartphone with an impressive camera and battery life.",
+        "spec": ["128GB Storage", "12MP Camera", "4000mAh Battery"],
+        "stock": true,
+        "rating": 4.7
+    },
+    {
+        "id": 2,
+        "title": "Dell XPS 13",
+        "img": "https://i.postimg.cc/KjGfVTnv/IMG-4727.jpg",
+        "category": "Laptops",
+        "price": 1199.99,
+        "desc": "A powerful laptop for gaming and professional use.",
+        "spec": ["32GB RAM", "1TB SSD", "NVIDIA RTX 3060"],
+        "stock": true,
+        "rating": 4.8
+    },
+    {
+        "id": 3,
+        "title": "Apple Watch Series 6",
+        "img": "https://i.postimg.cc/Hkc2fd75/IMG-4728.webp",
+        "category": "Watches",
+        "price": 399.99,
+        "desc": "A stylish smartwatch with fitness tracking features.",
+        "spec": ["Heart Rate Monitor", "GPS", "Water Resistant"],
+        "stock": true,
+        "rating": 4.3
+    },
+    {
+        "id": 4,
+        "title": "MacBook Pro 16",
+        "img": "https://i.postimg.cc/brmgjvT0/IMG-4729.webp",
+        "category": "Laptops",
+        "price": 2399.99,
+        "desc": "A sleek and lightweight laptop for everyday use.",
+        "spec": ["16GB RAM", "512GB SSD", "Intel i7 Processor"],
+        "stock": true,
+        "rating": 4.6
+    },
+    {
+        "id": 5,
+        "title": "Samsung Galaxy S21",
+        "img": "https://i.postimg.cc/y6jvRfHJ/IMG-4730.jpg",
+        "category": "Phones",
+        "price": 799.99,
+        "desc": "A budget-friendly smartphone with great features.",
+        "spec": ["64GB Storage", "16MP Camera", "3500mAh Battery"],
+        "stock": true,
+        "rating": 4.3
+    },
+    {
+        "id": 6,
+        "title": "HP Spectre x360",
+        "img": "https://i.postimg.cc/dt0nj8s5/IMG-4731.jpg",
+        "category": "Laptops",
+        "price": 1299.99,
+        "desc": "A high-performance laptop with a sleek design.",
+        "spec": ["16GB RAM", "512GB SSD", "Intel i7 Processor"],
+        "stock": true,
+        "rating": 4.5
+    },
+    {
+        "id": 7,
+        "title": "Lenovo ThinkPad X1 Carbon",
+        "img": "https://i.postimg.cc/DyY6j8mn/IMG-4732.jpg",
+        "category": "Laptops",
+        "price": 1499.99,
+        "desc": "A versatile laptop for both work and play.",
+        "spec": ["16GB RAM", "512GB SSD", "AMD Ryzen 7"],
+        "stock": true,
+        "rating": 4.4
+    },
+    {
+        "id": 8,
+        "title": "Garmin Forerunner 945",
+        "img": "https://i.postimg.cc/sgkczqpL/IMG-4733.jpg",
+        "category": "Watches",
+        "price": 499.99,
+        "desc": "A premium smartwatch with advanced health monitoring.",
+        "spec": ["ECG", "Sleep Tracking", "Bluetooth"],
+        "stock": true,
+        "rating": 4.9
+    },
+    {
+        "id": 9,
+        "title": "Asus ROG Zephyrus G14",
+        "img": "https://i.postimg.cc/9fyBQbbQ/IMG-4734.jpg",
+        "category": "Laptops",
+        "price": 1499.99,
+        "desc": "A high-end laptop with top-notch performance.",
+        "spec": ["32GB RAM", "1TB SSD", "NVIDIA RTX 3080"],
+        "stock": true,
+        "rating": 4.9
+    },
+    {
+        "id": 10,
+        "title": "Google Pixel 6",
+        "img": "https://i.postimg.cc/0Qx0MSXd/IMG-4735.jpg",
+        "category": "Phones",
+        "price": 699.99,
+        "desc": "A flagship smartphone with cutting-edge technology.",
+        "spec": ["256GB Storage", "48MP Camera", "4500mAh Battery"],
+        "stock": true,
+        "rating": 4.6
+    },
+    {
+        "id": 11,
+        "title": "Acer Aspire 5",
+        "img": "https://i.postimg.cc/KzNrnYdX/IMG-4736.jpg",
+        "category": "Laptops",
+        "price": 799.99,
+        "desc": "A budget-friendly laptop with decent performance.",
+        "spec": ["8GB RAM", "256GB SSD", "Intel i5 Processor"],
+        "stock": true,
+        "rating": 4.2
+    }
+]
