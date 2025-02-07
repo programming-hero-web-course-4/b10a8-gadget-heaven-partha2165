@@ -14,6 +14,7 @@ import Dashboard from './Components/Dashboard/Dashboard ';
 import Cart from './Components/Cart/Cart';
 import Wishlist from './Components/Wishlist/Wishlist.jsx';
 import DetailsPage from './Components/DetailsPage/DetailsPage.jsx';
+import NewsPage from './Components/NewsPage/NewsPage.jsx';
 
 
 
@@ -61,9 +62,13 @@ const router = createBrowserRouter([
         path: 'product/:id',
         element: <DetailsPage />,
         loader: () => fetch('/products.json')
-      }
-
-  
+      },
+      {
+        path: "gadgetnews",
+        element: <NewsPage />,
+        loader: () => fetch('/news.json')
+        
+      },  
     ]
     
   },

@@ -3,7 +3,7 @@ import { useLoaderData, useParams } from "react-router-dom";
 import { FaRegStar } from "react-icons/fa6";
 import { GiSelfLove } from "react-icons/gi";
 import { FaOpencart } from "react-icons/fa";
-
+import { addToCart, addToWishlist, getAllWishlist } from "../../Utils";
 
 const DetailsPage = () => {
     document.title = "Details | Gadget Heaven";
@@ -12,8 +12,24 @@ const DetailsPage = () => {
     const data = useLoaderData();
     const product = data.find(product => product.id === p_id);
     const { img, title, price, stock, desc, spec, rating } = product;
-  
-   
+
+    const [isInWishlist, setIsInWishlist] = useState(false);
+
+    useEffect(() => {
+        // product is already in the wishlist
+        const wishlist = getAllWishlist();
+        const existsInWishlist = wishlist.some(item => item.id === product.id);
+        setIsInWishlist(existsInWishlist);
+    }, [product.id]);
+
+    const handleAddToCart = (product) => {
+        addToCart(product);
+    };
+
+    const handleAddToWishlist = (product) => {
+        addToWishlist(product);
+        setIsInWishlist(true);
+    };
 
     return (
         <div className="">
@@ -47,12 +63,15 @@ const DetailsPage = () => {
                     <p className="mt-4 flex gap-1 text-xl">{rating} <FaRegStar className="text-xl" /></p>
                     <div className="flex gap-4 items-center mt-4">
                         <button 
-                           
+                            onClick={() => handleAddToCart(product)}
+                            className="btn btn-error"
                         >
                             Add To Cart <FaOpencart className="text-xl" />
                         </button>
                         <button
-                            
+                            onClick={() => handleAddToWishlist(product)}
+                            disabled={isInWishlist}
+                            className={`btn btn-outline text-xl ${isInWishlist ? 'opacity-50 cursor-not-allowed' : ''}`}
                         >
                             <GiSelfLove />
                         </button>
