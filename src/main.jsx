@@ -15,6 +15,7 @@ import Cart from './Components/Cart/Cart';
 import Wishlist from './Components/Wishlist/Wishlist.jsx';
 import DetailsPage from './Components/DetailsPage/DetailsPage.jsx';
 import NewsPage from './Components/NewsPage/NewsPage.jsx';
+import Statistics from './Components/Statistics/Statistics.jsx';
 
 
 
@@ -58,6 +59,11 @@ const router = createBrowserRouter([
             element: <Wishlist /> 
           }
         ]
+      },
+      {
+        path:"statistics",
+        element:<Statistics />
+
       },
       {
         path: 'product/:id',
