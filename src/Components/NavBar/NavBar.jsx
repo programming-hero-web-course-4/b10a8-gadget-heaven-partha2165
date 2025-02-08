@@ -46,14 +46,7 @@ const NavBar = () => {
                     Home
                 </NavLink>
             </li>
-            <li className={isHomePage ? "text-white" : "text-black"}>
-                <NavLink 
-                    to="/statistics" 
-                    className={({ isActive }) => isActive ? "md:text-[#9538E2]" : ""}
-                >
-                    Statistics
-                </NavLink>
-            </li>
+          
             <li className={isHomePage ? "text-white" : "text-black"}>
                 <NavLink 
                     to="/dashboard" 

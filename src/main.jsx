@@ -18,6 +18,7 @@ import NewsPage from './Components/NewsPage/NewsPage.jsx';
 
 
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -69,6 +70,7 @@ const router = createBrowserRouter([
         loader: () => fetch('/news.json')
         
       },  
+     
     ]
     
   },

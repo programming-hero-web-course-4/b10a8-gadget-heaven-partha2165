@@ -19,7 +19,8 @@ const NewsPage = () => {
             <div className=" mx auto mt-10 ">
                 {/* vid */}
                 <div className="text-center flex justify-center rounded-xl">
-                <iframe width="1000" height="550 " src="https://www.youtube.com/embed/cBpGq-vDr2Y?si=hU0MB8y88vMVk9zi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="1000" height="550" src="https://www.youtube.com/embed/xQwfnYh2dmY?si=lSo_lZHfYNfLjOzb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                {/* <iframe width="1000" height="550 " src="https://www.youtube.com/embed/cBpGq-vDr2Y?si=hU0MB8y88vMVk9zi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
                 </div>
                 {/* the latest gadet news */}
                 <div>
